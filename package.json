@@ -1,0 +1,16 @@
+{
+  "name": "playwright_pom_cli_riyad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+  "test:login": "playwright test tests/login.spec.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.65.0"
+  }
+}
